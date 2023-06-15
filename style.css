@@ -1,0 +1,24 @@
+.container {
+    width: 1200px;
+    height: 1200px;
+    display: grid;
+    grid-template-columns: 840px 344px;
+    grid-template-rows: 73px 509px 100px;
+    grid-gap: 1rem;
+    grid-template-areas: 
+    "head side"
+    "main side"
+    "foot foot";
+}
+header {
+    grid-area: 'head';
+}
+main {
+    grid-area: 'main';
+}
+aside {
+    grid-area: 'side';
+}
+footer {
+    grid-area: 'foot';
+}
